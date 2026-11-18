@@ -1,0 +1,30 @@
+1.2388 	ERROR 	Plugin `psychopy-cedrus` entry point requires module `psychopy_cedrus`, but it cannot be imported.
+9.7388 	INFO 	Loaded monitor calibration from ['2026_09_07 09:35']
+10.3140 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+10.4008 	INFO 	Using renderer 'Apple M1' for graphics
+10.4008 	INFO 	OpenGL version supported by driver is 2..
+10.4394 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x16dcfc150>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x16dcfc210>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x16f1ac490>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.4394 	EXP 	window1: backgroundImage = ''
+10.4395 	EXP 	window1: backgroundFit = 'none'
+10.6404 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.6404 	EXP 	window1: recordFrameIntervals = False
+10.8899 	EXP 	window1: recordFrameIntervals = True
+12.5561 	EXP 	window1: recordFrameIntervals = False
+12.5561 	EXP 	Screen (0) actual frame rate measured at 60.02Hz
+13.3688 	INFO 	keyboard.Keyboard is using ptb backend.
+13.3688 	EXP 	signal detection test: status = STARTED
+13.4163 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.2)
+13.4181 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.4193 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.3, 0.3, 0.3]), colorSpace='rgb', contrast=0.3, depth=-1.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.2, 0.2]), tex='sin', texRes=128.0, units='height', win=Window(...))
+13.4227 	EXP 	Created thank_you_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='thank_you_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.2)
+0.0334 	INFO 	Keyboard events cleared
+0.0334 	EXP 	instructions_text: autoDraw = True
+5.6748 	DATA 	Keypress: escape
+5.6869 	EXP 	Device response: <KeyPress from None: t=5.6569295416666705, value=escape, duration=None>
+5.8003 	EXP 	Device response: <KeyPress from None: t=5.6569295416666705, value=escape, duration=0.14232916666668416>
+5.8003 	EXP 	signal detection test: status = STOPPED
+5.8168 	EXP 	instructions_text: autoDraw = False
+5.8169 	EXP 	signal detection test: status = STOPPED
+5.8179 	INFO 	saved data to '/Users/bhavyapatel/Downloads/data/1_signal detection test_2026-11-18_10h51.53.033.csv'
+5.8184 	INFO 	saved data to /Users/bhavyapatel/Downloads/data/1_signal detection test_2026-11-18_10h51.53.033.psydat
+5.9194 	INFO 	Stopping keyboard key buffers.
